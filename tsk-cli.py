@@ -23,7 +23,6 @@ for row in tsk:
         print
 
         refs = row['refs'].split(';')
-        cleanRefs = ''
         for ref in refs:
             reference = bible.Verse(ref)
             print reference.format()
