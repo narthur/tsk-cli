@@ -1,4 +1,4 @@
-import bible, sys, csv, sqlite3
+import bible, sys, csv
 
 tsk = []
 
